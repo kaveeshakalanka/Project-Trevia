@@ -32,5 +32,4 @@ const warehouseAPI = {
         return axios.delete(`${API_URL}/warehouses/${id}`, { withCredentials: true });
     }
 };
-
 export default warehouseAPI;
