@@ -7,7 +7,7 @@ import lombok.Data;
 public class LoginRequest {
     @NotBlank
     private String username;
-
+//@NotBlank - ensure the following field must be fill.
     @NotBlank
     private String password;
 }

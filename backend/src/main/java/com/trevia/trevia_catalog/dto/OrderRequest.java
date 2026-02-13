@@ -9,8 +9,8 @@ import lombok.Data;
 public class OrderRequest {
     @NotEmpty
     private List<OrderItemRequest> items;
-
-    private String paymentMethod; // CARD or CASH_ON_DELIVERY
+//COD(cash on delevery and card pay)
+    private String paymentMethod; 
 
     @Data
     public static class OrderItemRequest {
