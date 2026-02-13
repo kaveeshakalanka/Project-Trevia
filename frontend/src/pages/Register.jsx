@@ -26,7 +26,7 @@ const Register = () => {
             role: roles
         };
 
-        // Add company name (only if registering as supplier)
+        // Add company name - only a supplier
         if (isSupplierRegistering && formData.companyName) {
             payload.companyName = formData.companyName.trim();
         }
@@ -40,6 +40,7 @@ const Register = () => {
     const toggleSupplierMode = (e) => {
         e.preventDefault();
         setIsSupplierRegistering(!isSupplierRegistering);
+
         // Clear company name when switching back to user
         if (isSupplierRegistering) {
             setFormData(prev => ({ ...prev, companyName: '' }));

@@ -15,7 +15,7 @@ const Login = () => {
         };
         const result = await login(payload);
         if (result.success) {
-            // Redirect for roles
+            // roles redirecting
             const userRoles = result.user?.roles || [];
             if (userRoles.includes('ROLE_ADMIN')) {
                 navigate('/admin');

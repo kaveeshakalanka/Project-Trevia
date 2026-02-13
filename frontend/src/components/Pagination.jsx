@@ -1,6 +1,6 @@
 const Pagination = ({ currentPage, totalPages, onPageChange }) => {
     if (totalPages <= 1) return null;
-
+//calculations & Arrays
     const pages = [];
     const maxPagesToShow = 5;
     let startPage = Math.max(0, currentPage - Math.floor(maxPagesToShow / 2));
@@ -13,7 +13,7 @@ const Pagination = ({ currentPage, totalPages, onPageChange }) => {
     for (let i = startPage; i < endPage; i++) {
         pages.push(i);
     }
-
+//pagination UI
     return (
         <div className="pagination">
             <button
