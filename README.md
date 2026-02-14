@@ -120,11 +120,11 @@ Trevia/
    spring.datasource.password=your_password
    ```
    **Environment Variables**
-   # Cloudinary
+### Cloudinary
   ```
   CLOUDINARY_CLOUD_NAME=djh4uce6p
   CLOUDINARY_API_KEY=your_api_key
-  CLOUDINARY_API_SECRET=your_api_secret
+  CLOUDINARY_API_SECRET=*******
 ```
 
 
