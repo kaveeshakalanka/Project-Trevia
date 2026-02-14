@@ -97,8 +97,8 @@ Trevia/
 |---------|----------------|
 | SQL Injection Protection | Spring Data JPA (parameterized queries) |
 | Password Security | BCrypt hashing |
-| CSRF Protection | Cookie-based tokens (X-XSRF-TOKEN) |
-| Rate Limiting | 100 requests/minute per IP (Bucket4j) |
+| CSRF Protection | Cookie-based tokens |
+| Rate Limiting | 100 requests/minute per IP |
 | Input Validation | Jakarta Bean Validation |
 | Role-Based Access | Spring Security |
 
