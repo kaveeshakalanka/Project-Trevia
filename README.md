@@ -12,7 +12,7 @@ A modern, full-stack e-commerce application built with **Spring Boot** and **Rea
 ## 🛠️ Tech Stack
 
 ### Backend
-- **Framework**: Spring Boot 3.x
+- **Framework**: Spring Boot 3.5.8
 - **Language**: Java 21
 - **Database**: MySQL 8.0
 - **Security**: Spring Security
